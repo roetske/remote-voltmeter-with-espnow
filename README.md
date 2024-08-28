@@ -20,7 +20,7 @@ blue led blinks when active connection with other module<br />
 power from one channel is used to power via buckconverter the esp32<br />
 however if you want to use external power => power via the micro c connector on esp32 and external 5v powerbank<br />
 # remarks
-Very important you need the macadress of both esp32 and implement int your code to get it working!!! <br />
+Very important you need the macadress of both esp32 and implement in to your code to get it working!!! <br />
 The esp32 mac is specific for your esp32. If you replace the esp32 with another you have to change the mac  <br />
 accordingly in the code!!! <br />
 My first setup worked but failed after a while. Both ina219 where broken. <br />
