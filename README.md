@@ -3,14 +3,15 @@
 # purpose
 Remote monitoring of 2 voltages.<br />
 The advantage the communication between the 2 modules is via wifi direct via espnow.<br />
+Before for wireless connections you need to connect to existing wifi and then interconnect. With espnow you can connect without router.<br />
 Connect two voltages between 0-30v with module2. Monitor the 2 voltages remotely on module1.<br />
-Before for wireless connections you need to existing wifi and then interconnect. With espnow you can connect without router.<br />
-Connection is based on macaddress of both esp32.<br />
+Connection is based on macaddress of both esp32 eclard in the code.<br />
 
 # module1
 esp32 with external antennae<br />
 oled 0.96 displays the 2 voltages<br />
-blueled blinking when connection active with module 2<br />
+Blueled blinking when connection active with module 2<br />
+The results of the measurements on module2 are displayed on oled of module1.
 # module2 
 esp32 with external antennae relays measured voltages to module1 via espnow<br />
 2 ina219 measure voltages connection i2c<br />
