@@ -1,7 +1,7 @@
 # remote-voltmeter-with-espnow 
 ![image](https://github.com/user-attachments/assets/52304627-868e-4aef-a64e-d8dc5ba9e61f)
 # purpose
-Remote monitoring of 2 voltages.<br />
+Remote monitoring of 2 voltages 0-30V.<br />
 The advantage the communication between the 2 modules is via wifi direct via espnow.<br />
 Before for wireless connections you need to connect to existing wifi and then interconnect. With espnow you can connect without router.<br />
 Connect two voltages between 0-30v with module2. Monitor the 2 voltages remotely on module1.<br />
