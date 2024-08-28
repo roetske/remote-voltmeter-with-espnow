@@ -1,17 +1,12 @@
-![image](https://github.com/user-attachments/assets/52304627-868e-4aef-a64e-d8dc5ba9e61f)
-
-
 # remote-voltmeter-with-espnow !!!work in progress!!!
+![image](https://github.com/user-attachments/assets/52304627-868e-4aef-a64e-d8dc5ba9e61f)
 # purpose
+Remote monitoring of 2 voltages.<br />
+The advantage the communication between the 2 modules is via wifi direct via espnow.<br />
 Connect two voltages between 0-30v with module2. Monitor the 2 voltages remotely on module1.<br />
-I work a lot with robots.Power to io modules on grippers on robots have a bus system and<br />
-2 supply voltages of 24V. <br />
-One Voltage is permanent the other is on when the drives are on (supply power to outputs). When the powercable on the robot starts failing.<br />
-It is hard to determine if it is the io module is failing,bus or the powersupply of 24V.<br />
-With this setup you can connect the monitoring to these 2 voltages before the io module on the robot. <br />
-Start your installation and have a realtimemonitoring of these 2 voltages. :)<br />
-# modules
-I made 2 modules.<br />
+Before for wireless connections you need to existing wifi and then interconnect. With espnow you can connect without router.<br />
+Connection is based on macaddress of both esp32.<br />
+
 # module1
 esp32 with external antennae<br />
 oled 0.96 displays the 2 voltages<br />
