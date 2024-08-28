@@ -1,4 +1,4 @@
-# remote-voltmeter-with-espnow !!!work in progress!!!
+# remote-voltmeter-with-espnow 
 ![image](https://github.com/user-attachments/assets/52304627-868e-4aef-a64e-d8dc5ba9e61f)
 # purpose
 Remote monitoring of 2 voltages.<br />
