@@ -11,7 +11,8 @@ Connection is based on macaddress of both esp32 declared in the code.<br />
 esp32 with external antennae<br />
 oled 0.96 displays the 2 voltages<br />
 Blueled blinking when connection active with module 2<br />
-The results of the measurements on module2 are displayed on oled of module1.
+The results of the measurements on module2 are displayed on oled of module1.<br />
+Power via micro c cable or 5v external supply.<br />
 # module2 
 esp32 with external antennae relays measured voltages to module1 via espnow<br />
 2 ina219 measure voltages connection i2c<br />
