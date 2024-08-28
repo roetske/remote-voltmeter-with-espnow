@@ -20,9 +20,9 @@ blue led blinks when active connection with other module<br />
 power from one channel is used to power via buckconverter the esp32<br />
 however if you want to use exteral power => power via the micro c connector on esp32 and external 5v powerbank<br />
 # remarks
-Very important you need the macadress of both esp32 to get it working!!! <br />
+Very important you need the macadress of both esp32 and implement int your code to get it working!!! <br />
 The esp32 mac is specific for your esp32. If you replace the esp32 with another you have to change the mac  <br />
-accorindingly!!! <br />
+accordingly in the code!!! <br />
 My first setup worked but failed after a while. Both ina219 where broken. <br />
 I changed the setup of measuring by using a voltage divider and a zener diode to limit the input voltage to the ina219 's.<br />
 For the espnow i used channel 4. This is fix but you can change it in the code.<br />
