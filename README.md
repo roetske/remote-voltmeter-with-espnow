@@ -6,7 +6,7 @@ The advantage the communication between the 2 modules is via wifi direct via esp
 Before for wireless connections you need to connect to existing wifi and then interconnect. With espnow you can connect without router.<br />
 Connect two voltages between 0-30v with module2. Monitor the 2 voltages remotely on module1.<br />
 Connection is based on macaddress of both esp32 declared in the code.<br />
-Library espnow espressif allows you to make direct connection between esp32<br />
+Library espnow espressif allows you to make direct connection between esp32.<br />
 
 # module1
 esp32 with external antennae<br />
