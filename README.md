@@ -31,6 +31,10 @@ For the espnow i used channel 4. This is fix but you can change it in the code.<
 I also planted a watchdog in both module so when one hangs it is automatically restarts.<br />
 Now the working is good and quite fast. Sample time is 0.5s.<br />
 
+# info
+For those who do not like to solder.
+This is a nice project using 2 m5dial and voltmeter from m5stack.<br />
+youtube link:  youtube=>(https://www.youtube.com/watch?v=hWHHfaTxZC0).<br />
 
 
 
