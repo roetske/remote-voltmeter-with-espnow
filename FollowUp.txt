@@ -1,1 +1,14 @@
+It works and is impressive the range.
+Used it on robot with gripper works good. 
+
+On robot with toolchanger nok. With toolchanger power is disrupted and reconnected with toolchange.
+The esp32 hangs after reconnect and I have to reset esp32. Did not find a solution for this yet except of using external battery.
+Now I get power from the 24V from toolchanger (do not want to use battery if i can choose).
+
+2nd remark output voltages to oled but no monitoring save longterm.
+Found a program to log usb messages to laptop but this is oldschool.
+Better would be using mqtt to log. Than from anywhere you can monitor the voltages.
+The thing is do you need this complicated setup with mqtt? 
+Logging via usb port to laptop i am also no big fan as you leave your laptop on location.
+
 
