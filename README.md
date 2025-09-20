@@ -36,7 +36,13 @@ For those who do not like to solder.
 This is a nice project using 2 m5dial and voltmeter from m5stack.<br />
 youtube link:  youtube=>(https://www.youtube.com/watch?v=hWHHfaTxZC0).<br />
 
-
+# remarks after testing
+It works but is oldschool you see the values on the oled better would be to implement it in a mqtt network to make graphs and have a time lapse follow up. <br />
+Also when using it on a robot with toolchanger you have to supply the power via powerbank, the issue being after powering up the esp freezes. push reset and back ok. <br />
+Took me some time to figure out to use the power of the robot when  newly docked without freezing the esp when the power is connected. <br />
+The issue is the power voltage ramps up too slow. The solution is using a ka75330zta powered by vin and the output to enable of the esp32. <br />
+(= as long as the voltage is below 3.3v with hysterisis the enable is pulled low by the ka75330, preventing esp startup when voltage is too low . <br />
+Solving the bad ramp up of the voltage (when power is supplied to the gripper when newly docked)to the esp which is supplied by the 24v with buck converter 5v to esp.<br />
 
 
 
